@@ -1,0 +1,37 @@
+.arial {
+  color: gray;
+}
+
+.monospace {
+  color: gray;
+}
+
+#rougeArial {
+  color: red;
+}
+
+#bleuArial {
+  color: blue;
+}
+
+#vertArial {
+  color: green;
+}
+
+#rougeMono {
+  background-color: red;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+#bleuMono {
+  background-color: blue;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+#vertMono {
+  background-color: green;
+  font-family: monospace;
+  font-weight: bold;
+}
