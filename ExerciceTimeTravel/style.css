@@ -1,0 +1,99 @@
+header {
+  background-image: url("images/pyramides.jpeg");
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  padding: 1px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: Amatic sc;
+}
+
+p {
+  font-family: work sans;
+}
+
+nav a {
+  color: white;
+}
+
+#destination {
+  display: flex;
+}
+
+#chute {
+  width: 420px;
+}
+
+#sousSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 180px;
+}
+
+#titre3 {
+  text-align: center;
+}
+
+#tarifs {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.bloc1,
+.bloc2,
+.bloc3 {
+  border: solid;
+  border-color: orange;
+  width: 400px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+h3 {
+  padding-top: 25px;
+}
+
+span {
+  color: orange;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+#concept {
+  display: flex;
+}
+
+#grece {
+  width: 420px;
+}
+
+.derniere {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#btn {
+  border: solid;
+  width: 100px;
+  border-color: orange;
+  text-align: center;
+  text-decoration: none;
+  color: orange;
+  padding: 5px;
+}
