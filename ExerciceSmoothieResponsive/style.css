@@ -100,3 +100,24 @@ footer {
   padding: 15px;
   text-align: center;
 }
+
+/* moobile <767px*/
+@media (max-width: 767px) {
+  .partieDeux {
+    display: flex;
+    flex-direction: column;
+  }
+
+  html {
+    margin: 0;
+  }
+
+  .partieQuatre ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.devise p {
+  text-align: center;
+}
