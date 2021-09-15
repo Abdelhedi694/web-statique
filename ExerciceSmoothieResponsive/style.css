@@ -1,0 +1,102 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(img/detoxcuresmoothie.jpg);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+header img {
+  height: 70px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+h1 {
+  font-family: playfair;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 40px;
+  margin-bottom: 120px;
+}
+
+#verre {
+  height: 200px;
+  margin-right: 35px;
+}
+
+.partieDeux {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#titreDeux {
+  text-align: center;
+}
+
+.partieTrois {
+  background: linear-gradient(#feb4c3, #f59e28);
+  color: white;
+  margin-bottom: 50px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+article ul li {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#dernierTitre {
+  text-align: center;
+}
+
+.partieQuatre ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.partieQuatre ul li {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#dernierePartie {
+  color: white;
+  background-color: #f59e28;
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+}

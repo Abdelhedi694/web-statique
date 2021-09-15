@@ -1,0 +1,15 @@
+body {
+  background-image: linear-gradient(
+      to right,
+      hsla(300, 100%, 85%, 0.473),
+      hsla(0, 0%, 85%, 0.486)
+    ),
+    url(background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+label {
+  display: inline-block;
+  width: 240px;
+}
