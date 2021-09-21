@@ -1,32 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulaire1</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Candidater pour partir en voyage</h1>
-    <p>
-      Notre société <strong>Evasion</strong> vous propose de découvrir en avant
-      première des lieux paradisiaques que nous souhaitons ajouter à notre
-      catalogue. Merci de remplir les différents champs ci-dessous pour
-      candidater au poste d'<strong>Eva'discover !</strong>
-    </p>
-    <form action="">
-      <fieldset>
-        <legend>Coordonnées</legend>
-        <div>
-          <label for="email">Votre email(*):</label>
-          <input type="text" name="email" />
-        </div>
-        <div>
-          <label for="tel">Votre téléphone:</label>
-          <input type="tel" name="tel" />
-        </div>
-      </fieldset>
-    </form>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulaire1</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Candidater pour partir en voyage</h1>
+  <p>
+    Notre société <strong>Evasion</strong> vous propose de découvrir en avant
+    première des lieux paradisiaques que nous souhaitons ajouter à notre
+    catalogue. Merci de remplir les différents champs ci-dessous pour
+    candidater au poste d'<strong>Eva'discover !</strong>
+  </p>
+  <form action="">
+    <fieldset id="coordonnées">
+      <legend>Coordonnées</legend>
+      <div>
+        <label for="email">Votre email(*):</label>
+        <input type="text" name="email" placeholder="hedi@aaa.com" />
+      </div>
+      <div>
+        <label for="tel">Votre téléphone :</label>
+        <input type="tel" name="tel" placeholder="0605040302" />
+      </div>
+    </fieldset>
+
+    <fieldset id="InfoPerso">
+      <legend>Informations personnelles</legend>
+      <div>
+        <label for="nom">Votre nom :</label>
+        <input type="text" name="nom" placeholder="Lothbrock" />
+      </div>
+      <div>
+        <label for="prenom">Votre prénom :</label>
+        <input type="text" name="prenom" placeholder="hedi" />
+      </div>
+      <hr>
+
+      <label id="plutot" for="sexe">Vous êtes plûtot :</label>
+      <div class="sexe">
+        <input type="radio" name="sexe" id="homme"><label for="homme">un homme</label>
+        <input type="radio" name="sexe" id="femme"><label for="femme">une femme</label>
+        <input type="radio" name="sexe" id="determiner"><label for="determiner">à déterminer</label>
+      </div>
+      <hr>
+      <div>
+        <label for="adresse">Votre adresse :</label>
+        <input type="text" name="adresse" />
+      </div>
+      <div>
+        <label for="code postale">Votre code postale :</label>
+        <input id="codePostale" type="text" name="code postale" />
+      </div>
+      <div>
+        <label for="ville">Votre ville :</label>
+        <input type="text" name="ville" />
+      </div>
+      <div>
+        <label for="departement">Votre département :</label>
+        <select name="departement" id="departement">
+          <option value="Alpes">Alpes de Haute Provence</option>
+        </select>
+      </div>
+      <hr>
+      <p>Quel budget êtes vous prêt à investir pour valider votre candidature ?</p>
+      <label for="prix">Budget :</label>
+      200€<input type="range" list="tickmarks">
+
+      3000€<datalist id="tickmarks">
+        <option value="0" label="0%">
+        <option value="10">
+        <option value="20">
+        <option value="30">
+        <option value="40">
+        <option value="50" label="50%">
+        <option value="60">
+        <option value="70">
+        <option value="80">
+        <option value="90">
+        <option value="100" label="100%">
+      </datalist>
+    </fieldset>
+    <fieldset id="langues">
+      <legend>Langues</legend>
+      <p>Merci de cocher toute les langues que vous pratiquez :</p>
+      <input type="radio" name="anglais" id="anglais"><label for="anglais">anglais</label>
+      <input type="radio" name="francais" id="francais"><label for="francais">francais</label>
+      <input type="radio" name="espagnol" id="espagnol"><label for="espagnol">espagnol</label>
+      <input type="radio" name="italien" id="italien"><label for="italien">italien</label>
+      <input type="radio" name="allemand" id="allemand"><label for="allemand">allemand</label>
+      <input type="radio" name="arménien" id="arménien"><label for="arménien">arménien</label>
+    </fieldset>
+    <fieldset id="destination">
+      <legend>Vos destination de rêves</legend>
+
+
+
+      <label for="choixDestination">Choisir vos destinations :
+        <select multiple name="Outre-mer" size="4">
+          <optgroup label="Outre-mer">
+            <option value="destination">Martinique</option>
+            <option value="destination">Martinique</option>
+            <option value="destination">Martinique</option>
+            <option value="destination">Martinique</option>
+            <option value="destination">Martinique</option>
+          </optgroup>
+        </select>
+      </label>
+      <p>Bien maintenir la touche CTRL pour séléctionner plusieurs choix</p>
+
+    </fieldset>
+  </form>
+  <input id="send" type="submit" value="Envoyer">
+</body>
+
 </html>

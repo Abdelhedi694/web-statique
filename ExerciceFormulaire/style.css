@@ -12,4 +12,55 @@ body {
 label {
   display: inline-block;
   width: 240px;
+  margin-bottom: 10px;
+}
+
+hr {
+  height: 1px;
+}
+
+.sexe {
+  display: inline-block;
+}
+
+.sexe label {
+  width: 90px;
+  margin-bottom: 0;
+}
+
+#plutot {
+  width: 120px;
+}
+
+#codePostale {
+  width: 40px;
+}
+
+#langues label {
+  width: fit-content;
+  margin-right: 50px;
+}
+
+.input {
+  display: inline-block;
+  background-color: white;
+}
+
+#divFinale {
+  display: inline-block;
+}
+
+#destination label {
+  display: flex;
+  align-items: flex-end;
+}
+
+#destination p {
+  font-style: italic;
+}
+
+#send {
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 5px;
 }
