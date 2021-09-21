@@ -1,0 +1,373 @@
+/* TYPO */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* BALISES GLOBALES */
+.containeur {
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* CSS GENERAL */
+
+header {
+  background-image: linear-gradient(
+      to top right,
+      rgb(124, 40, 99, 0.4),
+      rgb(0, 0, 0, 0.4)
+    ),
+    url(img/fitness.jpg);
+  object-position: 100%;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  color: white;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 190px;
+}
+
+h1 {
+  font-style: italic;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav img {
+  height: 80px;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  margin-left: 40px;
+}
+
+.btn {
+  border: solid rgb(124, 40, 99);
+  background-color: rgb(124, 40, 99);
+  padding: 5px 7px;
+}
+
+header div {
+  text-align: center;
+  margin-top: 140px;
+  font-size: 5rem;
+}
+
+header div p {
+  font-size: 3rem;
+}
+
+.containeur article {
+  height: 300px;
+  margin-top: -120px;
+  color: white;
+}
+
+.containeur article .photoUneSousHeader {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url(img/fitnessman.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+
+.containeur article .photoDeuxSousHeader {
+  background-image: linear-gradient(
+      rgb(124, 40, 99, 0.5),
+      rgb(124, 40, 99, 0.5)
+    ),
+    url(img/fitnesswoman.jpg);
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+.containeur article {
+  display: flex;
+}
+
+.containeur article div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sousDeuxPhotos {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#sectionTrois ul {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+#sectionTrois ul li {
+  width: 25%;
+  border-top: solid rgb(128, 128, 128, 0.1);
+  border-left: solid rgb(128, 128, 128, 0.1);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#sectionTrois ul li:first-of-type {
+  border-left: none;
+}
+
+#sectionTrois ul li img {
+  height: 40px;
+}
+
+#sectionQuatre {
+  background-image: linear-gradient(
+      to right,
+      rgb(124, 40, 99, 0.5) 55%,
+      rgb(0, 0, 0) 45%
+    ),
+    url(img/crossfit.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+#sectionQuatre .containeur {
+  color: white;
+}
+
+#sectionQuatre .containeur aside {
+  width: 50%;
+  margin-left: 50%;
+}
+
+#sectionQuatre .containeur aside p,
+#sectionQuatre .containeur aside a {
+  margin-left: 50px;
+}
+
+#sectionCinq ul li img {
+  height: 40px;
+}
+
+#sectionCinq ul li {
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 50px;
+}
+
+#sectionCinq ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#sectionCinq ul li:nth-child(odd) {
+  background-color: rgb(128, 128, 128, 0.1);
+}
+
+#sectionCinq ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer {
+  color: white;
+  background-color: black;
+}
+
+.traitFooter {
+  padding: 10px;
+  background-color: rgb(124, 40, 99);
+  margin-bottom: 20px;
+}
+
+footer #footerGauche img {
+  height: 80px;
+}
+
+footer .containeur {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+footer .containeur aside {
+  width: 30%;
+}
+
+footer .containeur form {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: -150px;
+  z-index: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#bouton {
+  color: white;
+  padding: 17px;
+}
+
+.deuxForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.deuxForm input {
+  margin-bottom: 40px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+footer #footerGauche {
+  text-align: end;
+}
+
+footer #footerGauche ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer #footerGauche ul li {
+  margin-left: 15px;
+}
+
+#footerDroit ul li i {
+  display: flex;
+  align-items: center;
+  color: rgb(124, 40, 99);
+}
+
+h4 {
+  color: white;
+  margin-left: 10px;
+}
+
+#footerDroit ul li p {
+  margin-left: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+ header{
+   padding-top: 0;
+   padding-left: 0;
+   padding-right: 0;
+ }
+ 
+  header nav {
+    background-color: rgb(124, 40, 99);
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  header div p {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  header nav img {
+    height: 20px;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  .containeur article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #sectionTrois ul li {
+    width: 50%;
+  }
+
+  #sectionTrois ul {
+    flex-wrap: wrap;
+  }
+
+  #sectionQuatre {
+    background-image: none;
+    background-color: black;
+  }
+
+  #sectionQuatre .containeur aside {
+    width: 100%;
+
+    margin-left: 0%;
+  }
+  #sectionQuatre .containeur h2 {
+    margin-left: 45px;
+  }
+
+  #sectionCinq ul li {
+    width: 100%;
+  }
+  footer .containeur {
+    flex-direction: column;
+    align-items: center;
+}
+footer .containeur form{
+  order: -1;
+}
+footer .containeur {
+  padding: 50px;
+}
+footer .containeur #footerGauche{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  text-align: center;
+}
+footer .containeur #footerGauche ul{
+text-align: center;
+justify-content: center;
+justify-content: space-around;
+}
+footer .containeur #footerGauche ul li{
+  margin: 0;
+}
+footer .containeur #footerDroit{
+  margin-right: 50%;
+  
+}
+}
+
+@media (min-width: 769px) {
+  header nav label {
+    display: none;
+  }
+ 
+
+iframe {
+  display: block;
+}
