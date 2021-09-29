@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/711e1d7dd3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Cornfood</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="text-white pt-5 mb-5">
+        <div class="container">
+            <nav class="d-flex justify-content-between align-items-center">
+                <img src="img/logo.png" alt="">
+
+                <ul class="list-unstyled">
+                    <li class="d-inline-block me-4"><a class="text-white text-decoration-none" href="#">HOME</a></li>
+                    <li class="d-inline-block me-4"><a class="text-white text-decoration-none" href="#">CONCEPT</a></li>
+                    <li class="d-inline-block me-4"><a class="text-white text-decoration-none" href="#">PRODUITS</a>
+                    </li>
+                    <li class="d-inline-block me-4"><a class="text-white text-decoration-none" href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <ul class="list-unstyled text-center">
+            <li>
+                <h1>des encas sains pour la journée</h1>
+            </li>
+            <li>
+                <p>Des produits sains à base de blé bio à grignoter pendant la journée 😃🌽</p>
+            </li>
+            <li><a id="btn" href="#">Découvrir</a></li>
+        </ul>
+    </header>
+    <div class="container">
+
+        <div id="carouselExampleControls" class=carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/granola.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/latte.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/juice.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
